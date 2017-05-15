@@ -1,0 +1,256 @@
+/* MCA ORGANISMS CSS ---------------*/
+
+
+/*CLEAR ---------------*/
+
+.clearboth { 
+    clear:both; 
+}
+
+.clearleft { 
+    clear:left; 
+}
+
+.clearright { 
+    clear:right; 
+}
+
+
+/* HEADINGS -----------------*/
+
+.h-nomargin {
+    margin-top: 0px;
+}
+
+.h-nomarginboth {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.row.row-nopadding {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+/* ORGANISM SPACERS -----------------*/
+
+.bigspacer {
+    margin-top: 50px;
+    }
+
+.smallspacer {
+    margin-top: 20px;
+    }
+
+.module {
+    margin: 20px 0 50px 0;
+    border: 1px solid #eee;
+    padding: 15px;
+    }
+
+
+
+/* MOLECULE SPACERS -----------------*/
+
+.margin-top{
+    margin-top:10px;
+}
+
+.margin-top-big{
+    margin-top:10px;
+}
+
+.button-addmargin {
+    margin-right: 15px;
+}
+
+.in-table {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+/* FORM STYLING -------------*/
+
+.optional { 
+    color: #999999;
+}
+
+
+/* MAP CANVAS -------------*/
+
+.map-container {
+    position: relative;
+    padding-bottom: 26.25%;
+    padding-top: 30px;
+    height: 300px;
+}
+ 
+.map-container iframe,  
+.map-container object, 
+.map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ANNOTATION  -------------------------- */
+
+.annotation {
+    color: #2f6f9f;
+}
+
+.annotation_test {
+    color: #2f6f9f;
+}
+
+.annotation2 {
+    color: #428bca;
+}
+
+
+/* ICONS ----------*/
+
+.fa[title] {
+    border-bottom: none;
+}
+
+.icon-xs {
+    font-size: 11px;
+}
+
+.icon-sm {
+    font-size: 14px;
+}
+
+.md-icon, .icon-md {
+    font-size: 20px;
+}
+
+.icon-lg{
+    font-size: 30px;
+}
+
+.xl-icon, .icon-xl {
+    font-size: 40px;
+}
+
+/* Updated class to be consistent with bootstrap class pattern .element-extend, in this case .icon-size */
+
+/* ACCORDION ----------*/
+
+.panel-accordion .panel-heading .row,
+.panel-accordion .panel-heading .row .row,
+.panel-accordion .panel-body .row,
+.panel-accordion .panel-body .row .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.panel-accordion .panel-heading .badge{
+    margin-left: 4px;
+}
+
+.panel-accordion .panel-heading .badge{
+    margin-left: 4px;
+}
+
+.panel-toggle{
+    padding: 5px;
+}
+
+.panel-toggle .fa-minus-square-o{
+    display: inline-block;
+}
+
+.panel-toggle .fa-plus-square-o {
+    display: none;
+}
+
+.collapsed .panel-toggle .fa-plus-square-o {
+    display: inline-block;
+}
+
+.collapsed .panel-toggle .fa-minus-square-o {
+    display: none;
+}
+
+.panel-accordion .panel-heading a:hover,
+.panel-accordion .panel-heading a:active,
+.panel-accordion .panel-heading a:focus{
+    text-decoration: none;
+}
+
+/* MCA TEMPLATES CSS ---------------*/
+
+/* LOGO --------------*/
+
+.logo{
+	width: 100%;
+	max-width: 190px;
+	max-height: 70px;
+    margin-bottom: 15px;
+}
+
+.logo svg {
+    width:100%;
+}
+
+/* MCA --------------*/
+
+.responsive {
+	width:100%;
+	max-width: 100%;
+}
+
+.location-search{
+	padding:15px;
+}
+
+.block-md{
+	display:block;
+}
+
+.mca-registration .main,
+.mca-registration .progress{
+    margin-bottom: 50px;
+}
+.mca-registration .cover-heading{
+    margin-top: 50px;
+}
+.mca-registration .jumbotron {
+	text-align: left;
+	margin-top: -20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.mca-registration .jumbotron .container{
+	max-width: 730px;
+}
+.mca-registration .jumbotron h1 {
+	font-size:36px;
+}
+
+.btn-toggle-menu{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+/* RESPONSIVE SPACERS --------------*/
+
+@media screen and (max-width: 767px) {
+.responsivemargin {
+     margin-top: 10px;
+}
+
+.block-md{
+	display:inline;
+}
+}

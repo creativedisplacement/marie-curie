@@ -1,0 +1,246 @@
+/* Marketing and campaign automation v1.0
+ * Extending Twitter Bootstrap
+   ====================================== */
+
+/* MCA REGISTRATION TEMPLATE
+   ====================================== */
+
+/* Logo */
+
+.logo{
+	width: 100%;
+	max-width: 190px;
+	max-height: 70px;
+  margin-bottom: 15px;
+}
+
+.logo svg {
+    width:100%;
+}
+
+/* Layout */
+
+.mca-registration{
+	border-top:10px solid #0064aa;
+}
+
+.mca-registration .container{
+		max-width: 730px;
+}
+
+.mca-registration header { 
+		border-bottom: 1px solid #eee;
+		padding-top: 20px;
+}
+
+.mca-registration.with-jumbotron header { 
+		border-bottom: none;
+}
+
+.mca-registration footer {
+		border-top: 1px solid #eee;
+		padding-bottom: 20px;
+}
+
+.mca-registration header,
+.mca-registration .progress,
+.mca-registration .main {
+    margin-bottom: 50px;
+}
+
+
+/* JUMBOTRON
+   ====================================== */
+
+.mca-registration .jumbotron {
+	text-align: left;
+	padding-bottom: 20px;
+	background: url(../img/mca/jumbotron-768.jpg) center #0064aa no-repeat;
+	background-size: auto 100%;
+}
+
+.mca-registration .jumbotron .container{
+	max-width: 730px;
+}
+
+.mca-registration .jumbotron h1 {
+	font-size: 36px;
+	color: #fff;
+	text-shadow: 1px 1px 10px #333;
+}
+
+.mca-registration .jumbotron .text-secondary{
+	color: #b4d2f0;
+}
+
+
+/* MAP CANVAS
+   ====================================== */
+
+.map-container {
+    position: relative;
+    /* padding-bottom: 26.25%; */
+    /* padding-top: 30px; */
+    height: 300px;
+}
+ 
+.map-container iframe,  
+.map-container object, 
+.map-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ICON SIZING
+   ====================================== */
+	 
+/* Updated class to be consistent with bootstrap class pattern .element-extend, in this case .icon-size */
+.icon-xs { font-size: 11px; }
+.icon-sm { font-size: 14px; }
+.icon-md { font-size: 20px; }
+.icon-lg { font-size: 30px; }
+.icon-xl { font-size: 40px; }
+
+
+/* ACCORDION PANELS
+   ====================================== */
+
+.panel-accordion .panel-heading .row,
+.panel-accordion .panel-heading .row .row,
+.panel-accordion .panel-body .row,
+.panel-accordion .panel-body .row .row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.panel-accordion .panel-toggle { padding: 5px; }
+
+.panel-accordion .panel-toggle .fa-minus-square-o,
+.panel-accordion .collapsed .panel-toggle .fa-plus-square-o { 
+		display: inline-block; 
+}
+
+.panel-accordion .panel-toggle .fa-plus-square-o,
+.panel-accordion .collapsed .panel-toggle .fa-minus-square-o {
+    display: none;
+}
+
+/* Remove hover style from accordion panels */
+.panel-accordion .panel-heading a:hover,
+.panel-accordion .panel-heading a:active,
+.panel-accordion .panel-heading a:focus {
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 768px) {
+	
+	/* RESPONSIVE BLOCKS
+   ====================================== */
+	
+	/* Display inline elements as block elements on larger screens */	 
+	.block-md {
+			display: block;
+	}
+	
+	/* JUMBOTRON BACKGROUND
+   ====================================== */
+	.mca-registration .jumbotron {
+		background-image: url(../img/mca/jumbotron-1200.jpg);
+		background-position: center top;
+	}
+
+}
+
+
+/* PROJECT OVERVIEW PAGE STYLES
+ * (NOT NEEDED FOR DEPLOYMENT)
+   ====================================== */
+
+.sub-header {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #eee;
+}
+
+/* Remove Bootstrap pre styles */
+.highlight pre {
+    border:none;
+    padding:9.5px 0;
+}
+
+/* Add syntax highlight colours */
+.highlight .hll { background-color: #ffc }
+.highlight .c  { color: #999 }
+.highlight .err { color: #A00;	background-color: #FAA }
+.highlight .k  { color: #069}
+.highlight .o  { color: #555 }
+.highlight .cm { color: #999 }
+.highlight .cp { color: #099 }
+.highlight .c1 { color: #999 }
+.highlight .cs { color: #999 }
+.highlight .gd { background-color: #FCC; border: 1px solid #C00 }
+.highlight .ge { font-style: italic }
+.highlight .gr { color: red }
+.highlight .gh { color: #030 }
+.highlight .gi { background-color: #CFC; border: 1px solid #0C0 }
+.highlight .go { color: #AAA }
+.highlight .gp { color: #009 }
+.highlight .gu { color: #030 }
+.highlight .gt { color: #9C6 }
+.highlight .kc { color: #069 }
+.highlight .kd { color: #069 }
+.highlight .kn { color: #069 }
+.highlight .kp { color: #069 }
+.highlight .kr { color: #069 }
+.highlight .kt { color: #078 }
+.highlight .m  { color: #F60 }
+.highlight .s  { color: #d44950 }
+.highlight .na { color: #4f9fcf }
+.highlight .nb { color: #366 }
+.highlight .nc { color: #0A8 }
+.highlight .no { color: #360 }
+.highlight .nd { color: #99F }
+.highlight .ni { color: #999 }
+.highlight .ne { color: #C00 }
+.highlight .nf { color: #C0F }
+.highlight .nl { color: #99F }
+.highlight .nn { color: #0CF }
+.highlight .nt { color: #2f6f9f }
+.highlight .nv { color: #033 }
+.highlight .ow { color: #000 }
+.highlight .w  { color: #bbb } 
+.highlight .mf { color: #F60 } 
+.highlight .mh { color: #F60 } 
+.highlight .mi { color: #F60 }
+.highlight .mo { color: #F60 }
+.highlight .sb { color: #C30 }
+.highlight .sc { color: #C30 }
+.highlight .sd { color: #C30; font-style: italic }
+.highlight .s2 { color: #C30 }
+.highlight .se { color: #C30 }
+.highlight .sh { color: #C30 }
+.highlight .si { color: #A00 }
+.highlight .sx { color: #C30 }
+.highlight .sr { color: #3AA }
+.highlight .s1 { color: #C30 }
+.highlight .ss { color: #FC3 }
+.highlight .bp { color: #366 }
+.highlight .vc { color: #033 }
+.highlight .vg { color: #033 }
+.highlight .vi { color: #033 }
+.highlight .il { color: #F60 }
+
+.highlight .css .o,
+.highlight .css .o+.nt,
+.highlight .css .nt+.nt {
+	color: #999
+}
+
+
+
+

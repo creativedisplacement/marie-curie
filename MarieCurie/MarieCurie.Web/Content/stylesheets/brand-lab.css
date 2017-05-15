@@ -1,0 +1,859 @@
+/**
+ * CONTENTS
+ *
+ * GLOBAL SETTINGS
+ * Variables.....................Import global variables and overrides for Bootstrap variables
+ * Syntax highlighting...........Include syntax highlighting in the Brand lab
+ *
+ * BRAND IDENTITY
+ * Font family...................Show all weights of Foco
+ * Colours.......................Display primary and secondary palette swatches
+ *
+ * GRIDS AND VIEWPORTS
+ * Grids.........................Make grids visible.
+ * Viewports.....................Show current viewport
+ *
+ * PATTERN LIBRARY
+ * Pattern panels................Style panels displaying pattern preview and code snippets
+ * Syntax highlighting...........Include syntax highlighting and override Bootstrap <pre> styles
+ *
+ * BRAND LAB OVERRIDES
+ * Header........................Override positiong styles in Brand lab
+ * Affix.........................Override affix on header and navbar
+ * Header........................Override positiong styles in Brand lab
+ * Off canvas nav................Override visibility styles
+ * Cookie banner.................Override margin styles
+ *
+ * BRAND LAB LAYOUT
+ * 
+ * DISPLAY LOGOS - REMOVE AFTER BRAND LAUNCH
+ */
+/*------------------------------------*\
+    #GLOBAL SETTINGS
+\*------------------------------------*/
+/**
+ * == Variables
+ *
+ * Our global variables and overrides for Bootstrap variables
+ *
+ * Bootstrap is compiled separately into global.css to avoid exceeding 4095 style rules 
+ * in a single CSS file. Our custom components extend Bootstrap so we need to re-import 
+ * Bootstrap compass, our global variables and Boostrap's variables and mixins before compiling.
+ *
+ * Style rule limit imposed by IE 6-9 
+ * (http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/10164546.aspx).
+ */
+/**
+ * CONTENTS
+ *
+ * BRANDING
+ * Breakpoints.....................Define the breakpoints at which your layout will change
+ * Typography......................Define font families, baseline grid and font weight
+ * Colours.........................Define custom colour palette
+ *
+ * BOOTSTRAP VARIABLES
+ * Colors..........................Gray and brand colors for use across Bootstrap
+ * Scaffolding.....................Settings for some of the most global styles
+ * Typography......................Font, line-height, and color for body text, headings, and more
+ * Iconography.....................Specify location of Glyphicons
+ * Components......................Define common padding and border radius sizes and more
+ * Tables..........................Customizes the .table component with basic values
+ * Buttons.........................Define text, background and border color of buttons
+ * Forms...........................Form components
+ * Dropdowns.......................Dropdown menu container and contents
+ * Z-index master list.............Z-index order of components (edit with caution)
+ * Media queries and breakpoints...Define the breakpoints at which your layout will change
+ * Grid system.....................Define your custom responsive grid
+ * Container sizes.................Define the maximum width of `.container` for different screen sizes
+ * Navbar..........................Define .navbar components
+ * Navs............................Define .nav components including pills and tabs
+ * Pagination......................Options for single or multiple page pagination
+ * Jumbotron.......................Extend the entire viewport to showcase key content
+ * Form states and alerts..........Define colors for form feedback states and, by default, alerts
+ * Tooltips........................
+ * Popovers........................
+ * Labels..........................
+ * Modals..........................
+ * Alerts..........................
+ * Progress bars...................
+ * List group......................
+ * Panels..........................
+ * Thumbnails......................
+ * Panels..........................
+ * Wells...........................
+ * Badges..........................
+ * Breadcrumbs.....................
+ * Carousels.......................
+ * Close...........................
+ * Code............................
+ * Type............................
+ */
+/*------------------------------------*\
+    #BRANDING
+\*------------------------------------*/
+/*------------------------------------*\
+    #BOOTSTRAP VARIABLES
+\*------------------------------------*/
+/**
+ * == Syntax highlighting
+ * 
+ * Include syntax highlighting in the brand lab
+ */
+/*------------------------------------*\
+    #SYNTAX HIGHLIGHTING
+\*------------------------------------*/
+/* line 5, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .hll {
+  background-color: #ffc;
+}
+
+/* line 6, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .c {
+  color: #999;
+}
+
+/* line 7, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .err {
+  color: #A00;
+  background-color: #FAA;
+}
+
+/* line 8, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .k {
+  color: #069;
+}
+
+/* line 9, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .o {
+  color: #555;
+}
+
+/* line 10, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .cm {
+  color: #999;
+}
+
+/* line 11, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .cp {
+  color: #099;
+}
+
+/* line 12, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .c1 {
+  color: #999;
+}
+
+/* line 13, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .cs {
+  color: #999;
+}
+
+/* line 14, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gd {
+  background-color: #FCC;
+  border: 1px solid #C00;
+}
+
+/* line 15, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .ge {
+  font-style: italic;
+}
+
+/* line 16, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gr {
+  color: red;
+}
+
+/* line 17, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gh {
+  color: #030;
+}
+
+/* line 18, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gi {
+  background-color: #CFC;
+  border: 1px solid #0C0;
+}
+
+/* line 19, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .go {
+  color: #AAA;
+}
+
+/* line 20, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gp {
+  color: #009;
+}
+
+/* line 21, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gu {
+  color: #030;
+}
+
+/* line 22, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .gt {
+  color: #9C6;
+}
+
+/* line 23, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kc {
+  color: #069;
+}
+
+/* line 24, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kd {
+  color: #069;
+}
+
+/* line 25, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kn {
+  color: #069;
+}
+
+/* line 26, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kp {
+  color: #069;
+}
+
+/* line 27, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kr {
+  color: #069;
+}
+
+/* line 28, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .kt {
+  color: #078;
+}
+
+/* line 29, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .m {
+  color: #F60;
+}
+
+/* line 30, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .s {
+  color: #d44950;
+}
+
+/* line 31, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .na {
+  color: #4f9fcf;
+}
+
+/* line 32, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nb {
+  color: #366;
+}
+
+/* line 33, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nc {
+  color: #0A8;
+}
+
+/* line 34, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .no {
+  color: #360;
+}
+
+/* line 35, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nd {
+  color: #99F;
+}
+
+/* line 36, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .ni {
+  color: #999;
+}
+
+/* line 37, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .ne {
+  color: #C00;
+}
+
+/* line 38, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nf {
+  color: #C0F;
+}
+
+/* line 39, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nl {
+  color: #99F;
+}
+
+/* line 40, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nn {
+  color: #0CF;
+}
+
+/* line 41, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nt {
+  color: #2f6f9f;
+}
+
+/* line 42, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .nv {
+  color: #033;
+}
+
+/* line 43, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .ow {
+  color: #000;
+}
+
+/* line 44, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .w {
+  color: #bbb;
+}
+
+/* line 45, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .mf {
+  color: #F60;
+}
+
+/* line 46, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .mh {
+  color: #F60;
+}
+
+/* line 47, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .mi {
+  color: #F60;
+}
+
+/* line 48, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .mo {
+  color: #F60;
+}
+
+/* line 49, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sb {
+  color: #C30;
+}
+
+/* line 50, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sc {
+  color: #C30;
+}
+
+/* line 51, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sd {
+  color: #C30;
+  font-style: italic;
+}
+
+/* line 52, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .s2 {
+  color: #C30;
+}
+
+/* line 53, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .se {
+  color: #C30;
+}
+
+/* line 54, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sh {
+  color: #C30;
+}
+
+/* line 55, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .si {
+  color: #A00;
+}
+
+/* line 56, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sx {
+  color: #C30;
+}
+
+/* line 57, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .sr {
+  color: #3AA;
+}
+
+/* line 58, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .s1 {
+  color: #C30;
+}
+
+/* line 59, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .ss {
+  color: #FC3;
+}
+
+/* line 60, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .bp {
+  color: #366;
+}
+
+/* line 61, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .vc {
+  color: #033;
+}
+
+/* line 62, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .vg {
+  color: #033;
+}
+
+/* line 63, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .vi {
+  color: #033;
+}
+
+/* line 64, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .il {
+  color: #F60;
+}
+
+/* line 66, ../sass/01-settings/_syntax-highlighting.scss */
+.highlight .css .o,
+.highlight .css .o + .nt,
+.highlight .css .nt + .nt {
+  color: #999;
+}
+
+/*------------------------------------*\
+    #BRAND IDENTITY
+\*------------------------------------*/
+/**
+ * == Font family 
+ *
+ *  Show all weights and styles of Foco
+ */
+/* line 79, ../sass/brand-lab.scss */
+.font-family {
+  font-size: 48px;
+}
+
+/**
+ *  Font weight
+ */
+/* line 87, ../sass/brand-lab.scss */
+.font:nth-child(1) .font-family {
+  font-weight: 300;
+}
+
+/* line 91, ../sass/brand-lab.scss */
+.font:nth-child(2) .font-family {
+  font-weight: 400;
+}
+
+/* line 95, ../sass/brand-lab.scss */
+.font:nth-child(3) .font-family {
+  font-weight: 700;
+}
+
+/* line 99, ../sass/brand-lab.scss */
+.font:nth-child(4) .font-family {
+  font-weight: 900;
+}
+
+/**
+ * == Colours
+ * 
+ *  Display primary and secondary palette swatches
+ */
+/* line 109, ../sass/brand-lab.scss */
+.swatch-color {
+  height: 55px;
+  border-bottom: 1px solid;
+  border-bottom-color: #e6e6e6;
+  border-radius: 10px 10px 0 0;
+}
+
+/**
+ *  Primary color palette
+ */
+/* line 120, ../sass/brand-lab.scss */
+.swatch-primary:nth-child(1) .swatch-color {
+  background-color: #ffcd00;
+}
+
+/* line 123, ../sass/brand-lab.scss */
+.swatch-primary:nth-child(2) .swatch-color {
+  background-color: white;
+}
+
+/* line 126, ../sass/brand-lab.scss */
+.swatch-primary:nth-child(3) .swatch-color {
+  background-color: #0065bd;
+}
+
+/* line 129, ../sass/brand-lab.scss */
+.swatch-primary:nth-child(4) .swatch-color {
+  background-color: #ff9e1b;
+}
+
+/**
+ *  Secondary color palette
+ */
+/* line 137, ../sass/brand-lab.scss */
+.swatch-secondary:nth-child(1) .swatch-color {
+  background-color: #0097a9;
+}
+
+/* line 140, ../sass/brand-lab.scss */
+.swatch-secondary:nth-child(2) .swatch-color {
+  background-color: #78be20;
+}
+
+/* line 146, ../sass/brand-lab.scss */
+.swatch-secondary:nth-child(3) .swatch-color {
+  background-color: #f7551f;
+}
+
+/* line 149, ../sass/brand-lab.scss */
+.swatch-secondary:nth-child(4) .swatch-color {
+  background-color: #547386;
+}
+
+/*------------------------------------*\
+    #GRIDS AND VIEWPORTS
+\*------------------------------------*/
+/**
+ * == Grids 
+ *
+ * Show grid columns
+ */
+/* line 164, ../sass/brand-lab.scss */
+.show-grid {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 22px;
+}
+
+/* line 169, ../sass/brand-lab.scss */
+.show-grid [class^=col-] {
+  padding: 10px;
+  background: #d8e1e7;
+  border: 1px solid #7a99ac;
+}
+
+/**
+ * == Viewports 
+ *
+ * Show viewport images
+ */
+/* line 190, ../sass/brand-lab.scss */
+.show-breakpoint {
+  margin-bottom: 22px;
+  border-radius: 11px;
+  text-align: center;
+  padding-bottom: 11px;
+  position: relative;
+}
+@media screen and (max-width: 767px) {
+  /* line 198, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-xs {
+    background: #ffd733;
+  }
+  /* line 201, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-xs:before {
+    content: "Your viewport is";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 207, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-sm {
+    background: #ffd733;
+  }
+  /* line 210, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-sm:before {
+    content: "Your viewport is";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 216, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-md {
+    background: #ffd733;
+  }
+  /* line 219, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-md:before {
+    content: "Your viewport is";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 225, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-lg {
+    background: #ffd733;
+  }
+  /* line 228, ../sass/brand-lab.scss */
+  .show-breakpoint.show-breakpoint-lg:before {
+    content: "Your viewport is";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/**
+ * Show viewport label - bottom right
+ */
+/* line 239, ../sass/brand-lab.scss */
+.show-breakpoint-widget {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #ffd733;
+  border-radius: 6px 0 0 0;
+  padding: 6px 11px;
+  text-align: center;
+}
+/* line 248, ../sass/brand-lab.scss */
+.show-breakpoint-widget .fa {
+  margin-left: 6px;
+}
+
+/*------------------------------------*\
+    #PATTERN LIBRARY
+\*------------------------------------*/
+/**
+ * Style panels displaying pattern preview and code snippets
+ */
+/* line 260, ../sass/brand-lab.scss */
+.tab-toggle {
+  margin-left: 6px;
+}
+
+/* line 263, ../sass/brand-lab.scss */
+.panel-html {
+  background: #e8edf1;
+}
+
+/**
+ * Include syntax highlighting and override Bootstrap <pre> styles
+ */
+/* line 272, ../sass/brand-lab.scss */
+.highlight pre {
+  border: none;
+  padding: 0;
+  margin-bottom: 0;
+  background: transparent;
+}
+
+/* line 280, ../sass/brand-lab.scss */
+.pre-highlight pre {
+  padding: 11px;
+  margin-bottom: 22px;
+  font-size: 13.6px;
+  background-color: #e8edf1;
+  border: 2px solid #c9d5dd;
+}
+
+/* line 289, ../sass/brand-lab.scss */
+.highlight pre code {
+  color: #333333;
+}
+
+/*------------------------------------*\
+    #BRAND LAB OVERRIDES
+\*------------------------------------*/
+/**
+ * Patterns with positioning rules may need to be overridden to preview nicely in the Brand lab.
+ */
+/* line 300, ../sass/brand-lab.scss */
+.brand-lab {
+  /**
+   * Override .header positioning
+   */
+  /**
+   * Override visibility on .off-canvas-nav 
+   */
+  /**
+   * Remove margin from cookie banner
+   */
+}
+/* line 303, ../sass/brand-lab.scss */
+.brand-lab .container .container {
+  width: 100%;
+}
+/* line 311, ../sass/brand-lab.scss */
+.brand-lab .header {
+  position: relative;
+}
+/* line 316, ../sass/brand-lab.scss */
+.brand-lab .header.affix .header-secondary {
+  border-color: white;
+  background: transparent;
+}
+/* line 321, ../sass/brand-lab.scss */
+.brand-lab .header.affix .navbar-secondary {
+  visibility: hidden !important;
+}
+/* line 333, ../sass/brand-lab.scss */
+.brand-lab .off-canvas-nav {
+  position: relative;
+  border-left: 1px solid #d8e1e7;
+}
+@media screen and (min-width: 992px) {
+  /* line 333, ../sass/brand-lab.scss */
+  .brand-lab .off-canvas-nav {
+    display: block !important;
+  }
+}
+/* line 347, ../sass/brand-lab.scss */
+.brand-lab .cookie {
+  margin-top: 0;
+}
+
+/* line 354, ../sass/brand-lab.scss */
+.icon-example {
+  width: 132px;
+  height: 132px;
+  float: left;
+  padding: 0 11px;
+  position: relative;
+}
+
+/*------------------------------------*\
+    #BRAND LAB LAYOUT
+\*------------------------------------*/
+/**
+ * Additional styles for the brand lab layout
+ */
+/* line 371, ../sass/brand-lab.scss */
+.brand-lab {
+  padding-top: 73px;
+}
+
+/* line 376, ../sass/brand-lab.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  z-index: 10000;
+}
+
+/**
+ * Section navigation
+ */
+/* line 385, ../sass/brand-lab.scss */
+.section-nav {
+  display: none;
+  position: relative;
+  padding: 16px 0;
+  margin: -22px 0 22px 0;
+}
+
+/* line 392, ../sass/brand-lab.scss */
+.section-nav-block {
+  padding-top: 22px;
+}
+
+/* line 396, ../sass/brand-lab.scss */
+.style-guide .section-nav-style-guide {
+  display: block;
+}
+
+/* line 400, ../sass/brand-lab.scss */
+.pattern-library .section-nav-pattern-library {
+  display: block;
+}
+
+/* line 408, ../sass/brand-lab.scss */
+.container-section-nav {
+  min-width: 962px;
+}
+
+/**
+ * Jump menu
+ */
+/* line 416, ../sass/brand-lab.scss */
+.jump-menu {
+  background: #d8e1e7;
+  padding: 11px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: none;
+  overflow-y: scroll;
+  position: relative;
+}
+/* line 424, ../sass/brand-lab.scss */
+.jump-menu.affix {
+  top: 72px;
+  max-height: 80%;
+  position: fixed;
+}
+@media screen and (min-width: 992px) {
+  /* line 424, ../sass/brand-lab.scss */
+  .jump-menu.affix {
+    width: 213px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 424, ../sass/brand-lab.scss */
+  .jump-menu.affix {
+    width: 168px;
+  }
+}
+/* line 438, ../sass/brand-lab.scss */
+.jump-menu-active .jump-menu {
+  display: block;
+}
+/* line 444, ../sass/brand-lab.scss */
+.jump-menu ul li {
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+/* line 448, ../sass/brand-lab.scss */
+.jump-menu ul ul {
+  display: none;
+}
+/* line 453, ../sass/brand-lab.scss */
+.jump-menu ul .active ul {
+  display: block;
+}
+
+/* line 463, ../sass/brand-lab.scss */
+.jump-menu-active .jump-menu-open {
+  display: none;
+}
+/* line 467, ../sass/brand-lab.scss */
+.jump-menu-open.affix {
+  top: 72px;
+  opacity: 0.75;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* line 474, ../sass/brand-lab.scss */
+.jump-menu-open:hover {
+  opacity: 1;
+}
+
+/* line 480, ../sass/brand-lab.scss */
+.jump-menu-hidden .post-list {
+  width: 100%;
+}
+
+/**
+ * Markdown
+ */
+/* line 490, ../sass/brand-lab.scss */
+.brand-lab .post {
+  border-bottom: 1px solid #d8e1e7;
+  margin-bottom: 22px;
+}
+/* line 495, ../sass/brand-lab.scss */
+.brand-lab .post h5,
+.brand-lab .post h6 {
+  margin-bottom: 0;
+  line-height: 22px;
+}

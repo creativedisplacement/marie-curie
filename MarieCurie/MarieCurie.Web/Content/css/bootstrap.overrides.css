@@ -1,0 +1,36 @@
+/* BOOTSTRAP OVERRIDES -------------------------- */
+
+
+/*
+ * Overrides or additions to Bootstrap rules for semantic elements or Bootstrap specific components
+ */
+
+/* Add margin to dd elements */
+dd {
+    margin-bottom: 20px;
+}
+
+/* Italicise citations */
+cite {
+    font-style: italic;
+}
+
+/* Styles for additional input types */
+.form-control[type="color"] {
+    padding: 4px 6px;
+    cursor: pointer;
+}
+.form-control[type="range"],
+.form-control[type="range"]:focus {
+    height: auto;
+    cursor: pointer;
+    padding: 6px 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+
+/* Use Font Awesome for feedback icons */
+.has-feedback .form-control-feedback {
+	top: 0;
+}

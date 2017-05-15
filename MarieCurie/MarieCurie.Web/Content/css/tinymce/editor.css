@@ -1,0 +1,46 @@
+﻿h2
+{
+    EditMenuName: H2;
+}
+h3
+{
+    EditMenuName: H3;
+}
+h4
+{
+    EditMenuName: H4;
+}
+h5
+{
+    EditMenuName: H5;
+}
+h6
+{
+    EditMenuName: H6;
+}
+p {
+    EditMenuTitle: Paragraph Styles;
+    ChangeElementType: true;
+    EditMenuName: Normal paragraph;
+}
+p.lead {
+    ChangeElementType: true;
+    EditMenuName: Standfirst paragraph;
+}
+pre 
+{
+    EditMenuName: Preformatted text;
+}
+em
+{
+    EditMenuTitle: Character Styles;
+    EditMenuName: Stressed emphasis;
+}
+strong
+{
+    EditMenuName: Strong importance;
+}
+img.img-responsive {
+    EditMenuTitle: Image Styles;
+    EditMenuName: Responsive image;
+}

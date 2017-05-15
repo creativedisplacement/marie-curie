@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/**
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global...............Globally-available variables and config.
+ *
+ * TOOLS
+ * Mixins...............Useful mixins.
+ *
+ * GENERIC
+ * Normalize.css........A level playing field.
+ * Box-sizing...........Better default `box-sizing`.
+ *
+ * BASE
+ * Headings.............H1ÔÇôH6 styles.
+ *
+ * OBJECTS
+ * Wrappers.............Wrapping and constraining elements.
+ *
+ * COMPONENTS
+ * Page-head............The main page header.
+ * Page-foot............The main page footer.
+ * Buttons..............Button elements.
+ *
+ * TRUMPS
+ * Text.................Text helpers.
+ */
+/*------------------------------------*\
+    #A-SECTION
+\*------------------------------------*/
+/**
+ * Multi-line comment (over 80 chars)
+ *
+ * The siteÔÇÖs main page-head can have two different states:
+ *
+ * 1. Regular page-head with no backgrounds or extra treatments; it just
+ *    contains the logo and nav.
+ * 2. A masthead that has a fluid-height (becoming fixed after a certain point)
+ *    which has a large background image, and some supporting text.
+ *
+ * The regular page-head is incredibly simple, but the masthead version has some
+ * slightly intermingled dependency with the wrapper that lives inside it.
+ */
+/**
+* Single line comment (less than 80 chars)
+*/
+/**
+ * These rules extend `.btn {}` in _objects.buttons.scss.
+ */
+/**
+ * 1. Default icon size is 16px.
+ * 2. Squash down the retina sprite to display at the correct size.
+ */
+/* line 70, ../sass/template.scss */
+.sprite {
+  width: 16px;
+  /* [1] */
+  height: 16px;
+  /* [1] */
+  background-image: url(/img/sprites/main.png);
+  background-size: 460px 106px;
+  /* [2] */
+}

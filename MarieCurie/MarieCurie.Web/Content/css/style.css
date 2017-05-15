@@ -1,0 +1,286 @@
+/* 
+ * Copied files across to to _sass/screen.scss
+ * Custom styles to be ported over to SASS 
+ *
+ */
+ 
+/* STYLE LIBRARY OVERRIDES */
+
+/* Fix the right jump link navigation on style guide to top right */
+.jump-menu {
+	position: fixed;
+	top: 70px;
+	right: 0;
+	width: 16.6666666667%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+.logo{
+	margin-top: 10px;
+}
+
+/* Make logo respond to screen size */
+.logo svg {
+	max-width: 100%;
+}
+
+/* Add padding to main page content */
+.main{
+	padding: 0 0 40px 0;
+}
+
+/* Overriding some styles in screen.scss */
+
+body {
+	padding-top:50px;
+}
+
+section {
+	margin-bottom: 30px;
+	padding-top: 0;
+}
+
+.primaryNav {
+	margin-bottom: 0;
+}
+
+/* Navbar branding class overwritten in screen.scss. Reinserted */
+.navbar-brand {
+	padding:15px;
+}
+
+/* Give nested sidebar navigation same padding as parent menu item */
+.nav-sidebar .nav > li > a {
+	padding: 10px 20px;
+}
+
+/* Reduce Bootstrap default padding checkbox and radio labels */
+.radio label, .checkbox label {
+	padding-left: 5px;
+}
+
+
+/* UX PROTOTYPE OVERRIDES */
+
+.template { padding-top: 0; }
+.template header { margin-bottom: 15px; }
+.template footer { border-top: 1px solid #eee; }
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+
+.template {
+	overflow-x: hidden;
+}
+	
+.template .offcanvas {
+	position: relative;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+.template .offcanvas-right .offcanvas-sidebar {
+	right: -50%; /* 6 columns */
+}
+
+.template .offcanvas-left .offcanvas-sidebar {
+	left: -50%; /* 6 columns */
+}
+
+.template .offcanvas-right.active {
+	right: 50%; /* 6 columns */
+}
+
+.template .offcanvas-left.active {
+	left: 50%; /* 6 columns */
+}
+
+.template .offcanvas-sidebar {
+	position: absolute;
+	top: 0;
+	width: 50%; /* 6 columns */
+	height: 100%;
+}
+
+.template .offcanvas-sidebar-inner{
+	padding: 15px;
+	height: 100%;
+	background: #eee;
+}
+
+/*
+ * Geolocation
+ * --------------------------------------------------
+ */
+ 
+.geolocation {
+  position: relative;
+}
+
+.geolocation-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.geolocation-results {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.geolocation-map {
+  display: none;
+}
+
+#map-in,
+#map-collapse,
+#results-in,
+#results-in {
+  display: inline-block;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  background: #A8DFA9;
+}
+
+.filters {
+  padding-top: 58px;
+}
+
+.filters,
+.results {
+  background: #fff;
+  /*z-index: 100;*/ 
+}
+
+.result,
+.results-footer,
+.filter,
+.geolocation-panel .navbar  {
+  padding: 0 15px;
+}
+
+.filter {
+  border-bottom-style: solid;
+  border-bottom-color: #eee;
+  border-bottom-width: 1px;
+}
+
+.filter-expose,
+.filter-collapse{
+  padding-top: 8px;
+}
+
+.filter-collapse:first-child {
+  padding-top: 0px;
+}
+
+.filter-collapse:last-child {
+  border-bottom: none;
+}
+
+#filters-collapsed {
+  display: none;
+  position:relative;
+  top: -30px;
+  margin-bottom: -20px;
+}
+
+.result:first-child {
+  padding-top: 20px;
+}
+
+.geolocation-fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.geolocation-fixed #filters-collapsed {
+  padding-bottom: 60px;
+}
+
+.geolocation-fixed .filter-control-collapse {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.filter-control-collapse {
+  padding-top: 8px;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.btn-inline-form {
+  margin-left: -15px;
+}
+
+.result-meta {
+  display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+
+#filters-collapsed {
+  top: -20px;
+}
+
+.geolocation-panel {
+  width: 50%;
+}
+
+.geolocation-results {
+  left: 50%;
+}
+
+.geolocation-map {
+  display: block;
+}
+
+.geolocation-fixed {
+  width: 50%;
+}
+
+.geolocation-fixed .filter-control-collapse {
+  position: static;
+  width: auto;
+}
+
+.filter-control-collapse {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  border-top: none;
+}
+
+.filter-collapse:last-child {
+  border-bottom: 1px solid #eee;
+}
+
+.result-meta {
+  display: block;
+}
+
+#map-in,
+#map-collapse,
+#results-in,
+#results-in {
+  display: none;
+}
+
+}

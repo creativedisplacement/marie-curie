@@ -1,0 +1,25 @@
+
+.modal-dialog {
+max-width: 500px;
+min-width: 320px;
+margin: 0 auto;
+margin-top: 100px;
+}
+
+.modal-body {
+padding: 30px;
+}
+
+.header-panel {
+margin: 0;
+padding: 10px 0 20px 0;
+border-bottom: 1px solid #8c8c8c;
+}
+
+.modal-body .header-panel {
+margin-bottom: 20px;
+}
+
+.light {
+font-weight: 300;
+}

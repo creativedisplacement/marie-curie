@@ -1,0 +1,18 @@
+﻿@model IEnumerable<MarieCurie.Models.HelperService>
+@{
+    ViewBag.Title = "Services Page";
+}
+
+<h1>Marie Curie Helper service</h1>
+<p class="lead">We know the little things can make a big difference when you, or someone you care about, are living with a terminal illness.</p>
+<h2>Find a Marie Curie Helper</h2>
+<p>Having someone to chat to over a cup of tea, help you get to an appointment or run an errand, or just be there to listen when you need a friendly ear.</p>
+<!-- OUTPUT HELPER SERVICES DETAILS HERE -->
+<!-- Use Panel module for each helper service -->
+<div class="row">
+    @foreach (var service in Model)
+    {
+        @Html.Partial("_HelperService", service)
+    }
+</div>
+

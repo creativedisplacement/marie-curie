@@ -1,0 +1,215 @@
+/*
+
+_volunteering.css
+Author - Struan Barr, DAM Digital
+
+*/
+
+/* custom inclusion of right, left and below tabs */
+
+.panel-body-volunteering {
+    background-color: #ffffff !important;
+}
+
+.tabs-left a, .tabs-left p {
+font-family: "foco", "Helvetica", Arial, sans-serif;
+}
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+    background-color:#ffeb99;
+    font-size:20px;
+}
+
+
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+    color:#333333;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border:1px solid transparent;
+    background-color:#ffcd00;
+
+}
+
+a:focus {
+outline:none !Important;
+}
+
+.volunteer .btn:focus {
+outline:none !Important;
+}
+
+.tabs-left > .nav-tabs > li.active > a {
+background-color:#ffcd00;
+}
+
+.nav-tabs {
+padding-right:0;
+}
+
+
+.tabs-left a:focus {
+outline: inherit;
+}
+
+.volunteer .fa.fa-minus-circle, .volunteer .fa.fa-plus-circle {
+margin-left: 10px;
+}
+
+.btn-dashed {
+border: 2px dashed #ffda42;
+background-color: transparent;
+width: 131px;
+height: 50px;
+padding: 0 50px 0 20px;
+border-radius: 11px;
+}
+
+
+.choose-block {
+height: 490px;
+    position:relative;
+    backgound-color: #ffffff;
+    border: 5px solid #ffcd00;
+height: 355px;
+border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+padding: 20px;
+}
+
+
+.interests-block {
+bottom: 0;
+left: 0;
+padding: 20px;
+margin-top:30px;
+    bottom: 0;
+left: 0;
+padding: 14px;
+margin-top: 12px;
+}
+
+.interests-block p {
+margin-bottom: 12px;
+font-size: 20px;
+}
+
+.volunteer .btn-info {
+margin-right: 3px;
+margin-bottom: 10px;
+}
+
+.no-padding-left {
+padding-left:0;
+}
+
+.volunteer-form{
+margin-top: 22px;
+}
+
+.spacer-20 {
+height:20px;
+}
+
+.volunteer .panel .panel-body > :last-child {
+margin-bottom:10px;
+}
+
+
+@media (max-width:910px) {
+.tabs-left > .nav-tabs > li > a{
+font-size: 16px;
+}
+    .choose-block {
+        height: 321px;
+    }
+    
+    .volunteer .btn-info {
+    margin-right: 3px;
+margin-bottom: 10px;
+padding: 8px 14px;
+font-size: 18px;
+    }
+
+}
+
+.volunteer .concertina .panel-body {
+background:white;
+}
+
+@media (max-width:767px) {
+.no-padding-left {
+padding-right:0;
+}
+    
+    .tabs-left > .nav-tabs > li > a {
+    border-radius:4px;
+    }
+    
+    .choose-block {
+    height: inherit;
+        border-radius: 5px;
+    }
+    
+    .interests-block {
+    margin-top:0;
+        padding: 4px;
+    }
+}

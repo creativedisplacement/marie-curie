@@ -1,0 +1,25 @@
+@font-face{
+font-family:"Rotis II Sans W02 Bold";
+src:url("/fonts/5fea60a0-ce13-473c-a796-36258088e2b4.eot?#iefix");
+src:url("/fonts/5fea60a0-ce13-473c-a796-36258088e2b4.eot?#iefix") format("eot"),url("/fonts/bf62d42b-4776-49cf-a6c7-fd6526631ce1.woff") format("woff"),url("/fonts/38c09b02-857a-4578-b4d4-1c501439b2c9.ttf") format("truetype"),url("/fonts/cc697472-b37f-4acb-9883-c79e27dee400.svg#cc697472-b37f-4acb-9883-c79e27dee400") format("svg");
+}
+@font-face{
+font-family:"RotisIISansW02-BoldItal";
+src:url("/fonts/89876e65-c5b4-461d-8c99-033fccebd06b.eot?#iefix");
+src:url("/fonts/89876e65-c5b4-461d-8c99-033fccebd06b.eot?#iefix") format("eot"),url("/fonts/8bd6814e-2443-4c2c-b069-72da7b906603.woff") format("woff"),url("/fonts/9a4dcfb1-171e-4402-a766-4d740380923a.ttf") format("truetype"),url("/fonts/a6bea109-6ea7-42c1-ae58-13b809d07203.svg#a6bea109-6ea7-42c1-ae58-13b809d07203") format("svg");
+}
+@font-face{
+font-family:"Rotis II Sans W01";
+src:url("/fonts/34b33d9d-f2bd-4dc1-a896-79286a06f4bf.eot?#iefix");
+src:url("/fonts/34b33d9d-f2bd-4dc1-a896-79286a06f4bf.eot?#iefix") format("eot"),url("/fonts/3d19653e-8f28-4413-a400-3da85a7e828a.woff") format("woff"),url("/fonts/ffc13d4f-d2e6-4f85-ac1f-bedc1036f727.ttf") format("truetype"),url("/fonts/c37c35db-3bbb-4f8e-acdd-f1142597d215.svg#c37c35db-3bbb-4f8e-acdd-f1142597d215") format("svg");
+}
+@font-face{
+font-family:"RotisIISansW01-Italic";
+src:url("/fonts/e804b824-3f64-4851-ad21-978220f8ac41.eot?#iefix");
+src:url("/fonts/e804b824-3f64-4851-ad21-978220f8ac41.eot?#iefix") format("eot"),url("/fonts/6544eed3-eb6e-424c-a881-f3cb9139f585.woff") format("woff"),url("/fonts/d2ad80fd-aabe-445c-9339-cce63cf8df1d.ttf") format("truetype"),url("/fonts/5c6477ca-f17e-4451-91b8-b30b4f767795.svg#5c6477ca-f17e-4451-91b8-b30b4f767795") format("svg");
+}
+@font-face{
+font-family:"RotisSemiSerifW01-Roman";
+src:url("/fonts/2ee0e7ed-5668-4fa5-8637-7a8bc98cd1fd.eot?#iefix");
+src:url("/fonts/2ee0e7ed-5668-4fa5-8637-7a8bc98cd1fd.eot?#iefix") format("eot"),url("/fonts/afaa3c4a-15e8-43f7-8055-7a6ec2236af2.woff") format("woff"),url("/fonts/6448334c-4ba8-48e9-aecd-d87bf53d47a3.ttf") format("truetype"),url("/fonts/86b9f366-3460-4acc-9a7e-b9b64613f83a.svg#86b9f366-3460-4acc-9a7e-b9b64613f83a") format("svg");
+}
